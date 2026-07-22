@@ -1,0 +1,37 @@
+
+======================================================================
+FINAL EXPLORATORY DATA ANALYSIS REPORT
+Generated on: 2026-07-22 12:31
+======================================================================
+
+1. EXECUTIVE SUMMARY
+----------------------------------------------------------------------
+Total Customers:      1,000
+Total Revenue:        $98,774.19
+Average Spend:        $98.77
+Data Completeness:    99.55%
+
+2. KEY TRENDS & DEMOGRAPHICS
+----------------------------------------------------------------------
+- Average Age: 50.4 years.
+- Average Income: $51,123.04
+- Best Performing Category: Sports ($21,651.68)
+- Lowest Performing Category: Fashion ($17,779.63)
+- Most Active Region: South
+
+3. ANOMALIES & OUTLIERS
+----------------------------------------------------------------------
+- Missing Values Detected: 50 total cells (Income and Satisfaction)
+- High-Value VIPs: Detected heavy right-skew in purchase_amount, indicating 
+  a small group of VIP customers drives a large portion of total revenue.
+
+4. BUSINESS RECOMMENDATIONS
+----------------------------------------------------------------------
+1. Optimize Inventory: Focus stock on Sports as it drives the most revenue.
+2. VIP Program: Create a loyalty tier for customers spending > $220.93 (Top 10%).
+3. Data Cleaning: Implement strict data validation to prevent missing Income/Satisfaction scores.
+4. Targeted Marketing: Align campaigns toward the highest spending age and income demographics.
+
+======================================================================
+END OF REPORT
+======================================================================
